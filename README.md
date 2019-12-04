@@ -7,7 +7,7 @@ You can use the [editor on GitHub](https://github.com/ozzysmithjones/ozzysmithjo
 
 ### Turn based Strategy game.
 
-[Image](https://drive.google.com/drive/u/0/folders/16AKWLK8VK0HxCQZ7TR61UlPCVQmPcwOI)
+[Image](https://drive.google.com/file/d/1xEEXxgu5fvZZQyiNOn5m9ll_yXbaqW6t/view?usp=sharing)
 
 ```markdown
 Syntax highlighted code block
