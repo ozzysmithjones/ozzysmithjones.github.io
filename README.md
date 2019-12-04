@@ -28,7 +28,7 @@ In previous projects, the stars were randomly placed, the connections between th
 
 So the reason I am making a procedurally generated galaxy is beacuse I have been really interested in AI for strategy games lately. The recent Google deepmind AI  _AlphaStar_ has managed to defeat proffesional human players at the strategy game _StarCraft_. This project inspired me to try creating an AI of my own, but on a smaller scope with a turn based system on a node-based map. I have also played the classic _Master of Orion_ and I have played some _stellaris_ and _Civilisation_. Hopefully, I can make my own strategy game using this map that I created.
 
-Generasting the map is only step one, next ill be looking to create empire influence and spaceships. Afterwards ill be implementing A* pathfinding and player input. 
+creating the map is only step one, next ill be looking to create empire influence and spaceships. Afterwards ill be implementing A* pathfinding and player input. 
 
 
 ```markdown
