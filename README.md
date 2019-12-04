@@ -1,6 +1,6 @@
 ## Oscar Smith-Jones - games programmer
 
-This will contain details about my current projects/work life.
+Oscar, C++, C# programmer studying at staffordshire University. Here are some of my projects.
 
 You can use the [editor on GitHub](https://github.com/ozzysmithjones/ozzysmithjones.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
