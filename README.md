@@ -1,14 +1,13 @@
 ## Oscar Smith-Jones - games programmer
 
-Oscar, C++, C# programmer studying at staffordshire University. Here are some of my projects.
+Oscar, C++, C# programmer studying at staffordshire University. Here are some of my projects.Some of which may still be in development.
 
 You can use the [editor on GitHub](https://github.com/ozzysmithjones/ozzysmithjones.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
+### Turn based Strategy game.
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+[Image](
 
 ```markdown
 Syntax highlighted code block
