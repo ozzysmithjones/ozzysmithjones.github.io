@@ -2,7 +2,10 @@
 
 Oscar, C++, C# programmer studying at staffordshire University. Here are some of my projects.Some of which may still be in development.
 
-You can use the [editor on GitHub](https://github.com/ozzysmithjones/ozzysmithjones.github.io/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
+[linkedin] (https://www.linkedin.com/in/oscar-smith-jones-44329a195/) 
+[Twitter](https://twitter.com/OscarSmithJone1)
+[gitHub](https://github.com/ozzysmithjones)
+
 
 
 # Turn based Strategy game.
@@ -40,6 +43,20 @@ The above shows a small rougelike project made in UE4 during my education years 
 
 Dystopia is a Rougelike set underground, there's Aliens, wurms and strange diseases that can infect the player. Some Items are cursed, such as a god living within an Item or a laser gun that makes you age. 
 
+## Development
+
+With a fixed time of three months, me and one sound designer had to create a video game. We had one theme: Climate. For a small games jam, a restricting theme helps you to come up with an idea, even if that idea wasn't very good. But, for a 3 month game, it was quite hard to come up with something that we liked, that fit the theme, and showed our skills. After a week of thinking, we decided to make a rougelike beacuse: it was technical enough, A lot of varied audio could be created,and with enough style it could fit the theme. We envisioned this dark, gloomy rougelike with a nuclear holocaust theme, what could go wrong, right? 
+
+We spent the next week planning and gathering research. What we didn't fully realise was that we also had to market to an audience. This game was going to be marked by the college, so we spent all of our time doing market research and a style guide for points. Tom never did any planning beacuse "he just didn't need one" ,apparently, so I had to help him plan out his work, given how long it takes him to complete a song, or sound effect. 
+
+The next few weeks were especially difficult. Given the way I planned the project, the most important tasks(procedural generation, pathfinding, AI, inventory systems) were also the most difficult. These had to be done at the start. This meant that the artwork had to be done by the sound specialist, who worked with me in the past. Every day I would work into the night improving the dungeon generation, or making the pathfinding in _visual scripting_ while Tom would give me art assets. Regular meet-ups and blog posts would be made about meeting milestones. I had to learn to be very patient, but very vigilant with work over a long period. 
+
+Eventually I had one bug, this one bug involved a crash on startup, but I couldn't find the source of the bug. I had to re-code the procedural dungeon generation, and fix the pathfinding system several times before it was resolved. this meant that we missed a couple of weeks of development. Luckily, I planned 4 weeks spare in-case of events like this. Even when everything worked, I looked at the game we created and realised that it was terrible. 
+
+The artwork was atrocituous, no artist on team, most of our artwork came from the sound specialist. The main mechanic(using food as a resource) was badly balanced with the abilities currently in the game. The enemies provided no interesting decision making, beacuse they were too simple. Everything was working but playing atrocioustly. The game obviously needed several weeks of polish, but we didn't have several weeks. With market research, I also realised that rougelikes were an already crowded market, so if I was making this game for real, it would not succeed.
+
+Despite the hit of low-motivation, I re-planned the middle of my project and worked as diligantly as I could. creating an inventory system, player progression and even curses. The game right now is alright, it has a lot of flaws, but the themes pretty good. If I could do this again- I would never do this again. Still, I learned great teamwork skills and general project experience.
+
 
 ## How it works
 
@@ -51,31 +68,10 @@ The dungeon enviroment is inspired from the game _Spelunky_ it's generated in a 
 
 Every tile in the game has a single Integer representing it's coordinates. These single-Integer coordinates are converted regularly into 2 dimensional coordinates for ease of use. Some abilities, like teleporting, needed to show one or more tiles that can be selected on the map. The enemies with these abilities, shouldn't show optional targeting tiles on the map. The Abilities UI behaviour is called from the players HUD, this method marks the tiles that can be selected. Only if the player selects a marked tile does the ability activate. Thus, the Ability behaviour is seperate from it's UI behaviour, allowing enemies to use the ability without showing any "select" icons on the map.  The only issue is that enemies need to have a target selected before using the ability, but by default this is set to the players location in a "attack" ability.
 
+# Links to these projects. 
+Links to these projects will be posted on GitHub. 
 
-```markdown
-Syntax highlighted code block
 
-# Header 1 
-## Header 2
-### Header 3
 
-- Bulleted
-- List
 
-1. Numbered
-2. List
 
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/ozzysmithjones/ozzysmithjones.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
