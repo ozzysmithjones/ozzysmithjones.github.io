@@ -2,7 +2,7 @@
 
 Oscar, C++, C# programmer studying at staffordshire University. Here are some of my projects.Some of which may still be in development.
 
-[linkedin] (https://www.linkedin.com/in/oscar-smith-jones-44329a195/) 
+[linkedin](https://www.linkedin.com/in/oscar-smith-jones-44329a195/) 
 [Twitter](https://twitter.com/OscarSmithJone1)
 [gitHub](https://github.com/ozzysmithjones)
 
