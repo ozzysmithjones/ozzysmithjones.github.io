@@ -25,7 +25,7 @@ This procedural generation system uses a breadth-first search. The algorithm sta
 In previous projects, the stars were randomly placed, the connections between them generated afterwards. This meant that some collection of stars wouldn't be connected to the rest of the galaxy. Worse still, the algorithm used to connect the stars together was performance intense; Every star needed to search the nearby area with a mini breath-first-search to connect the stars together. 
 
 ### Project
-
+[4x space game](https://github.com/ozzysmithjones/4xGameRepository)
 
 ### next stage in the project
 
@@ -37,7 +37,7 @@ creating the map is only step one, next ill be looking to create empire influenc
 
 ![RougeLike](https://github.com/ozzysmithjones/ozzysmithjones.github.io/blob/master/FIRE.PNG?raw=true)
 
-## Dystopia 
+## Cataclysm/Dystopian game
 
 The above shows a small rougelike project made in UE4 during my education years in college. We had three months to make a game and document about it every day. I was partnered with an Audio specialist, and we decided at the time a rougelike would best suit our skills and shared interests. Honestly, without an artist it wasn't easy making the background art, we went through two iterations of artwork before deciding on a very minimalistic design. The project was quite ambitious but we managed to finish it on time.
 
@@ -68,8 +68,8 @@ The dungeon enviroment is inspired from the game _Spelunky_ it's generated in a 
 
 Every tile in the game has a single Integer representing it's coordinates. These single-Integer coordinates are converted regularly into 2 dimensional coordinates for ease of use. Some abilities, like teleporting, needed to show one or more tiles that can be selected on the map. The enemies with these abilities, shouldn't show optional targeting tiles on the map. The Abilities UI behaviour is called from the players HUD, this method marks the tiles that can be selected. Only if the player selects a marked tile does the ability activate. Thus, the Ability behaviour is seperate from it's UI behaviour, allowing enemies to use the ability without showing any "select" icons on the map.  The only issue is that enemies need to have a target selected before using the ability, but by default this is set to the players location in a "attack" ability.
 
-# Links to these projects. 
-Links to these projects will be posted on GitHub. 
+### project 
+[cataclysm/dystopian game](https://github.com/ozzysmithjones/DystopiaRepository)
 
 
 
