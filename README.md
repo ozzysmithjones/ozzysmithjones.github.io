@@ -6,6 +6,7 @@ Oscar, C++, C# programmer studying at staffordshire University. Here are some of
 [Twitter](https://twitter.com/OscarSmithJone1)
 [gitHub](https://github.com/ozzysmithjones)
 
+![image](https://github.com/ozzysmithjones/ozzysmithjones.github.io/blob/master/ProfileJPG.jpg)
 
 
 # Turn based Strategy game.
