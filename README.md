@@ -55,7 +55,7 @@ Eventually I had one bug, this one bug involved a crash on startup, but I couldn
 
 The artwork was atrocituous, no artist on team, most of our artwork came from the sound specialist. The main mechanic(using food as a resource) was badly balanced with the abilities currently in the game. The enemies provided no interesting decision making, beacuse they were too simple. Everything was working but playing atrocioustly. The game obviously needed several weeks of polish, but we didn't have several weeks. With market research, I also realised that rougelikes were an already crowded market, so if I was making this game for real, it would not succeed.
 
-Despite the hit of low-motivation, I re-planned the middle of my project and worked as diligantly as I could. creating an inventory system, player progression and even curses. The game right now is alright, it has a lot of flaws, but the themes pretty good. If I could do this again- I would never do this again. Still, I learned great teamwork skills and general project experience.
+Despite the hit of low-motivation, I re-planned the middle of my project and worked as diligantly as I could. creating an inventory system, player progression and even curses. The game right now is alright, it has a lot of flaws, but the themes pretty good. If I could do this again- I would never do this again. Still, I learned great teamwork skills and general project experience, plus it gave me a distinction in college.
 
 
 ## How it works
