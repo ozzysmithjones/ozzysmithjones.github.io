@@ -6,7 +6,7 @@ C++ Programmer and Game Developer.
 ## Portfolio
 ### Entity-Component-System (ECS)
 
-[Entity Component-System](https://github.com/ozzysmithjones/entity-component-system)
+[Entity-Component-System](https://github.com/ozzysmithjones/entity-component-system)
 
 An Entity-Component-System is a data-orientated approach for representing entities within games. I made a custom implementation of ECS for my own personal game engine projects. This version uses C++ variadic templates to provide an intuitive API and it uses `if constexpr` to further filter candidate items at *compile-time*. It is designed for projects with high-performance requirements and object counts, like Real-Time-Strategy games. 
 
