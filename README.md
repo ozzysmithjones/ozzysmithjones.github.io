@@ -1,4 +1,4 @@
-## Oscar Smith-Jones - Software Engineer
+## Oscar - Software Engineer
 
 C++ Programmer and Game Developer. 
 
