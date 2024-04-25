@@ -1,4 +1,4 @@
-## Oscar - Software Engineer
+## Oscar - Programmer
 
 C++ Programmer and Game Developer. 
 
