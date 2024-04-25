@@ -33,7 +33,7 @@ So the reason I am making a procedurally generated galaxy is beacuse I have been
 
 creating the map is only step one, next ill be looking to create empire influence and spaceships. Afterwards ill be implementing A* pathfinding and player input. 
 
-# Rouge-Like
+# Rogue-Like
 
 ![roguelike](https://github.com/ozzysmithjones/ozzysmithjones.github.io/blob/master/FIRE.PNG?raw=true)
 
