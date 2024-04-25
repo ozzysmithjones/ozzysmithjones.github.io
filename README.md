@@ -13,19 +13,19 @@ An Entity-Component-System is a data-orientated approach for representing entiti
 
 This project was inspired by Unity DOTS, which has an ECS system: [Unity Dots](https://unity.com/dots). Also I was inspired by the Entt library, which is currently used commercially in Minecraft and many other projects: [Entt](https://github.com/skypjack/entt) 
 
-## Vulkan Renderer
+### Vulkan Renderer
 
 [Vulkan Renderer](https://github.com/ozzysmithjones/LearnVulkan)
 
 Vulkan is an API used to interface directly with the GPU on a computer. Recently I developed a project that renders a 3D model directly to the screen using only the Vulkan SDK and the GLFW library. Game engines often depend upon an API such as Vulkan to present 3D models to the screen, so learning this tech is very handy for future game engine projects. 
 
-## Chess AI
+### Chess AI
 
 [Chess AI](https://github.com/ozzysmithjones/Chess)
 
 Sometimes your programming journey takes you to a rabbit hole, one such rabbit hole is chess AI. During my time at University, I made a chess AI that can beat a 1600 rated opponent. At the time this AI was much better at playing chess than I was. There's many AI techniques used in this project to filter inadequate moves and make predictions of better moves from previous moves. 
 
-## Tower Defence Genetic Algorithm
+### Tower Defence Genetic Algorithm
 
 [Tower Defence Genetic Algorithm](https://github.com/ozzysmithjones/GeneticAlgorithm)
 
