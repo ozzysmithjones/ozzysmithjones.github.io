@@ -6,8 +6,6 @@ C++ Programmer and Game Developer.
 
 ## Portfolio
 
-![Profile](https://github.com/ozzysmithjones/ozzysmithjones.github.io/blob/master/ProfileJPG.jpg?raw=true)
-
 ### Entity-Component-System (ECS)
 
 [Entity-Component-System](https://github.com/ozzysmithjones/entity-component-system)
