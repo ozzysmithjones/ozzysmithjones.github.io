@@ -8,9 +8,7 @@ C++ Programmer and Game Developer.
 
 [Entity Component-System](https://github.com/ozzysmithjones/entity-component-system)
 
-An Entity-Component-System is a data-orientated approach for representing entities within games. 
-This version uses C++ variadic templates to provide an intuitive API and it uses `if constexpr` to further filter candidate items at *compile-time*.  
-It is designed for projects with high-performance requirements and object counts, like Real-Time-Strategy games. 
+An Entity-Component-System is a data-orientated approach for representing entities within games. I made a custom implementation of ECS for my own personal game engine projects. This version uses C++ variadic templates to provide an intuitive API and it uses `if constexpr` to further filter candidate items at *compile-time*. It is designed for projects with high-performance requirements and object counts, like Real-Time-Strategy games. 
 
 This project was inspired by Unity DOTS, which has an ECS system: [Unity Dots](https://unity.com/dots). Also I was inspired by the Entt library, which is currently used commercially by Minecraft and many other projects: [Entt](https://github.com/skypjack/entt) 
 
