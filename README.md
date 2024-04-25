@@ -35,17 +35,17 @@ creating the map is only step one, next ill be looking to create empire influenc
 
 # Rouge-Like
 
-![RougeLike](https://github.com/ozzysmithjones/ozzysmithjones.github.io/blob/master/FIRE.PNG?raw=true)
+![roguelike](https://github.com/ozzysmithjones/ozzysmithjones.github.io/blob/master/FIRE.PNG?raw=true)
 
 ## Cataclysm/Dystopian game
 
-The above shows a small rougelike project made in UE4 during my education years in college. We had three months to make a game and document about it every day. I was partnered with an Audio specialist, and we decided at the time a rougelike would best suit our skills and shared interests. Honestly, without an artist it wasn't easy making the background art, we went through two iterations of artwork before deciding on a very minimalistic design. The project was quite ambitious but we managed to finish it on time.
+The above shows a small roguelike project made in UE4 during my education years in college. We had three months to make a game and document about it every day. I was partnered with an Audio specialist, and we decided at the time a roguelike would best suit our skills and shared interests. Honestly, without an artist it wasn't easy making the background art, we went through two iterations of artwork before deciding on a very minimalistic design. The project was quite ambitious but we managed to finish it on time.
 
-Dystopia is a Rougelike set underground, there's Aliens, wurms and strange diseases that can infect the player. Some Items are cursed, such as a god living within an Item or a laser gun that makes you age. 
+Dystopia is a roguelike set underground, there's Aliens, wurms and strange diseases that can infect the player. Some Items are cursed, such as a god living within an Item or a laser gun that makes you age. 
 
 ## Development
 
-With a fixed time of three months, me and one sound designer had to create a video game. We had one theme: Climate. For a small games jam, a restricting theme helps you to come up with an idea, even if that idea wasn't very good. But, for a 3 month game, it was quite hard to come up with something that we liked, that fit the theme, and showed our skills. After a week of thinking, we decided to make a rougelike beacuse: it was technical enough, A lot of varied audio could be created,and with enough style it could fit the theme. We envisioned this dark, gloomy rougelike with a nuclear holocaust theme, what could go wrong, right? 
+With a fixed time of three months, me and one sound designer had to create a video game. We had one theme: Climate. For a small games jam, a restricting theme helps you to come up with an idea, even if that idea wasn't very good. But, for a 3 month game, it was quite hard to come up with something that we liked, that fit the theme, and showed our skills. After a week of thinking, we decided to make a roguelike beacuse: it was technical enough, A lot of varied audio could be created,and with enough style it could fit the theme. We envisioned this dark, gloomy roguelike with a nuclear holocaust theme, what could go wrong, right? 
 
 We spent the next week planning and gathering research. What we didn't fully realise was that we also had to market to an audience. This game was going to be marked by the college, so we spent all of our time doing market research and a style guide for points. Tom never did any planning beacuse "he just didn't need one" ,apparently, so I had to help him plan out his work, given how long it takes him to complete a song, or sound effect. 
 
@@ -53,7 +53,7 @@ The next few weeks were especially difficult. Given the way I planned the projec
 
 Eventually I had one bug, this one bug involved a crash on startup, but I couldn't find the source of the bug. I had to re-code the procedural dungeon generation, and fix the pathfinding system several times before it was resolved. this meant that we missed a couple of weeks of development. Luckily, I planned 4 weeks spare in-case of events like this. Even when everything worked, I looked at the game we created and realised that it was terrible. 
 
-The artwork was atrocituous, no artist on team, most of our artwork came from the sound specialist. The main mechanic(using food as a resource) was badly balanced with the abilities currently in the game. The enemies provided no interesting decision making, beacuse they were too simple. Everything was working but playing atrocioustly. The game obviously needed several weeks of polish, but we didn't have several weeks. With market research, I also realised that rougelikes were an already crowded market, so if I was making this game for real, it would not succeed.
+The artwork was atrocituous, no artist on team, most of our artwork came from the sound specialist. The main mechanic(using food as a resource) was badly balanced with the abilities currently in the game. The enemies provided no interesting decision making, beacuse they were too simple. Everything was working but playing atrocioustly. The game obviously needed several weeks of polish, but we didn't have several weeks. With market research, I also realised that roguelikes were an already crowded market, so if I was making this game for real, it would not succeed.
 
 Despite the hit of low-motivation, I re-planned the middle of my project and worked as diligantly as I could. creating an inventory system, player progression and even curses. The game right now is alright, it has a lot of flaws, but the themes pretty good. If I could do this again- I would never do this again. Still, I learned great teamwork skills and general project experience, plus it gave me a distinction in college.
 
