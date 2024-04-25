@@ -4,7 +4,7 @@ C++ Programmer and Game Developer.
 [Twitter](https://twitter.com/OscarSmithJone1)
 [GitHub](https://github.com/ozzysmithjones)
 ## Portfolio
-### Entity Component-System (ECS)
+### Entity-Component-System (ECS)
 
 [Entity Component-System](https://github.com/ozzysmithjones/entity-component-system)
 
