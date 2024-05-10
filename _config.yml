@@ -2,9 +2,9 @@ remote_theme: jeffreytse/jekyll-theme-yat
 title: Oscar Smith-Jones
 email: ozzysmithjoneswork@gmail.com
 author: Oscar Smith-Jones
-defaults:
-  home:
-    heading: "Oscar Smith-Jones"
-    subheading: "Associate Software Engineer"
+home:
+  heading: "Oscar Smith-Jones"
+  subheading: "Associate Software Engineer"
+ 
 
 
