@@ -7,21 +7,18 @@
 
 
 ### Native Platform Layer
-[Repo](https://github.com/ozzysmithjones/platform_layer)
-
 Platform layer library. This library allows provides to native utilities provided by the operating system such as threading, windowing, file mapping and memory management. It is designed to support cross-platform in the future but right now it just supports windows. 
+[Native Platform Layer](https://github.com/ozzysmithjones/platform_layer)
 
 ### Entity-Component-System (ECS)
-[Repo](https://github.com/ozzysmithjones/entity-component-system) 
-
 ECS library. This library is used to represent objects in video games, such as characters, items, enemies and so on. 
 Full article: [Entity](Articles/Entity) 
+[Entity Component System](https://github.com/ozzysmithjones/entity-component-system) 
 
 ### Vulkan Renderer
 
-[Vulkan Renderer](https://github.com/ozzysmithjones/LearnVulkan)
-
 Vulkan is an API used to interface directly with the GPU on a computer. Recently I developed a project that renders a 3D model directly to the screen using only the Vulkan SDK and the GLFW library. Game engines often depend upon an API such as Vulkan to present 3D models to the screen, so learning this tech is very handy for future game engine projects. 
+[Vulkan Renderer](https://github.com/ozzysmithjones/LearnVulkan)
 
 ### Chess AI
 
