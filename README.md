@@ -4,6 +4,8 @@
 [Twitter](https://twitter.com/OscarSmithJone1)
 [GitHub](https://github.com/ozzysmithjones)
 
+[[ Vulkan Renderer | README#Vulkan Renderer ]]
+
 ### Native Platform Layer
 [Platform Layer](https://github.com/ozzysmithjones/platform_layer)
 
