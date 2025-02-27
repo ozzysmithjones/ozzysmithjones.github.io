@@ -13,7 +13,7 @@ Platform layer library. This library allows provides to native utilities provide
 [Entity Component System](https://github.com/ozzysmithjones/entity-component-system) 
 
 ECS library. This library is used to represent objects in video games, such as characters, items, enemies and so on. 
-Full article: [Entity](Articles/Entity) 
+Full article: [Entity](Articles/Entities) 
 
 ### Vulkan Renderer
 [Vulkan Renderer](https://github.com/ozzysmithjones/LearnVulkan)
