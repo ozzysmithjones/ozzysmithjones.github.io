@@ -12,6 +12,7 @@ and make various projects with fewer dependencies.
 
 ### Entity-Component-System (ECS)
 [Entity-Component-System](https://github.com/ozzysmithjones/entity-component-system) 
+[Article](Articles/Entities.md)
 
 When developing games, a common problem every developer faces is how to define the "entities" within them. By "entities" I mean any object that you can find in a level -> rocks, items, characters, weapons, whatever. The issue is many entities in games share things in common - they might share 3D models, they might share physics properties, they might share audio and so on. The question is how can we share things in common between different types of objects.
 
