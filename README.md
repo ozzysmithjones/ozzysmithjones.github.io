@@ -7,7 +7,7 @@
 ### Native Platform Layer
 [Native Platform Layer](https://github.com/ozzysmithjones/platform_layer)
 
-Platform layer library. This library allows access to native utilities provided by the operating system such as threading, windowing, file mapping and memory management. It is designed to support cross-platform in the future but right now it just supports windows. 
+Platform layer library. This library allows access to native utilities provided by the operating system such as threading, windowing, file mapping and memory management. It is designed to be cross-platform in the future but right now it just supports windows. 
 
 ### Entity-Component-System (ECS)
 [Entity Component System](https://github.com/ozzysmithjones/entity-component-system) 
