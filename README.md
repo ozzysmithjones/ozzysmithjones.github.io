@@ -8,7 +8,7 @@
 [Platform Layer](https://github.com/ozzysmithjones/platform_layer)
 
 I've made a small platform layer library to wrap the windows API, you can find the library here: [Platform Layer](https://github.com/ozzysmithjones/platform_layer). My hope is to develop this library further
-and make various projects without dependending on any libraries. 
+and make various projects with fewer dependencies.
 
 ### Entity-Component-System (ECS)
 [Entity-Component-System](https://github.com/ozzysmithjones/entity-component-system) 
