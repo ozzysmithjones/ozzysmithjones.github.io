@@ -28,12 +28,9 @@ public:
 Here, `get_value` needs to be made twice. Once for when the DataStructure is constant and once for when it isn't. This duplicated code is itself error prone. 
 The more code that needs to be made, the higher the chances that an inconsistency between the implementations could appear later on, leading to bugs. 
 
-This is, of course, a trade-off, but I don't think it is a trade-off that is worth making. Modern IDE's and debuggers are powerful enough to spot all of the mutations happening to
-variables in real time. If we had to trace the mutation of variables ourselves without a debugger, then constants would be a lot more valuable. This whole thing might feel nit-picky, but when your job is to make decisions all the time it is valuable to save that energy for
-more valuable problems. 
+This is, of course, a trade-off, but I don't think it is a trade-off that is worth making. Modern IDE's and debuggers are powerful enough to spot all of the mutations happening to variables in real time. If we had to trace the mutation of variables ourselves without a debugger, then constants would be a lot more valuable. We quite simply don't need constants. This whole thing might feel nit-picky, but when your job is to make decisions all the time it is valuable to save that energy for more valuable problems. 
 
-There's evidence to suggest that willpower is a limited resource - every time an individual makes a decision, the total energy they have for the rest of the day decreases, until eventually
-it is very difficult to make progress. Optimising for developer time is about using this limited energy efficiently, and not superfluous problems.
+There's evidence to suggest that willpower is a limited resource - every time an individual makes a decision, the total energy they have for the rest of the day decreases, until eventually it is very difficult to make progress. Optimising for developer time is about using this limited energy efficiently, and not superfluous problems.
 
 ### The Idea
 
@@ -70,8 +67,7 @@ instance: foo(thing: true, stuff: "hi")
 ```
 
 The goal is a language with as little keywords as possible, so your mind can filter the code more efficiently. The language places strong limitations to reduce 
-decision making -> functions cannot return values or be used in expressions. You must instead use "out" parameters. This allows the language to clearly disambiguate 
-between struct instances and function calls. It also reduces the overall decision making space for the programmer - there's only one way to return values from a function and not two. 
+decision making -> functions cannot return values or be used in expressions. You must instead use "out" parameters. This allows the language to clearly disambiguate between struct instances and function calls. It also reduces the overall decision making space for the programmer - there's only one way to return values from a function and not two. 
 
 ### Memory Management in Spear 
 
@@ -82,5 +78,22 @@ To enforce memory safety, by default functions also cannot be recursive (it will
 #recursive(10) minimax(chess_board: chess_board, alpha: i32, beta: i32) {
 }
 ```
+### Arrays in Spear
 
+The primary reason to use the heap is to allow for dynamic arrays. Arrays that can change capacity are a whole headache for programming languages. In Spear, arrays cannot change capacity so you must specify a fixed capacity calculated at compile time: 
 
+```
+// Arrays can be declared with type followed by capacity
+arr: i32[1024]
+// Arrays can also be initialised with an array literal if there's no type. In this case the count is also set to the number of elements provided.
+arr: [0,1,2,3,4]
+```
+Note that the `capacity` of an array is set, but the `count` is initially zero. Arrays can be appended to so long as the count of elements is less than the capacity.
+```
+append(&arr, 4)
+```
+You can iterate over an array using a for each loop:
+```
+foreach element in array {
+}
+```
