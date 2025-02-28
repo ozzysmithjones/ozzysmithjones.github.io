@@ -46,7 +46,7 @@ main {
 ```
 Arguments can be specified with parenthesis. 
 ```
-main (args: []string) {
+main (args: string[..]) {
   print("Hello world!")
 }
 ```
