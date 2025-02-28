@@ -75,12 +75,12 @@ between struct instances and function calls. It also reduces the overall decisio
 
 ### Memory Management in Spear 
 
-Dynamic memory allocation is problematic. Most programming languages use a garbage collector to automatically search the program and delete things as needed. Garbage collection can cause notable stalls when the search occurs.
-Some languages use manual memory management but this is error prone. NASA prohibits all usage of dynamic memory allocation - all memory usage must be fixed and known at compile time.
-In Spear there is no dynamic memory allocation. All memory is allocated on the stack. To support this, the default stack size is much higher 
-than a standard C/C++ program. The philosophy behind this idea is that knowing your memory usage ahead of time is good practice, both for performance and for avoiding errors. This also
-means there is only "one way" to allocate variables and references to variables always remain valid. 
+Dynamic memory allocation is problematic. Most programming languages use a garbage collector to automatically search the program and delete things as needed. Garbage collection can cause notable stalls when the search occurs. Some languages use manual memory management but this is error prone. NASA prohibits all usage of dynamic memory allocation - all memory usage must be fixed and known at compile time. In Spear there is no dynamic memory allocation. All memory is allocated on the stack. To support this, the default stack size is much higher than a standard C/C++ program. The philosophy behind this idea is that knowing your memory usage ahead of time is good practice, both for performance and for avoiding errors. This also means there is only "one way" to allocate variables and references to variables always remain valid. 
 
-
+To enforce memory safety, by default functions also cannot be recursive (it will be a compiletime error.). To make a function recursive you must explicitly mark it as recursive and set a maximum recursion depth. This means that the total required memory usage can be worked out at compiletime.
+```
+#recursive(10) minimax(chess_board: chess_board, alpha: i32, beta: i32) {
+}
+```
 
 
