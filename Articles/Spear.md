@@ -78,7 +78,7 @@ between struct instances and function calls. It also reduces the overall decisio
 Dynamic memory allocation is problematic. Most programming languages use a garbage collector to automatically search the program and delete things as needed. Garbage collection can cause notable stalls when the search occurs.
 Some languages use manual memory management but this is error prone. NASA prohibits all usage of dynamic memory allocation - all memory usage must be fixed and known at compile time.
 In Spear there is no dynamic memory allocation. All memory is allocated on the stack. To support this, the default stack size is much higher 
-then a standard C/C++ program. The philosophy behind this idea is that knowing your memory usage ahead of time is good practice, both for performance and for avoiding errors. This also
+than a standard C/C++ program. The philosophy behind this idea is that knowing your memory usage ahead of time is good practice, both for performance and for avoiding errors. This also
 means there is only "one way" to allocate variables and references to variables always remain valid. 
 
 
