@@ -31,7 +31,7 @@ There's evidence to suggest that willpower is a limited resource - every time an
 
 ### The Idea
 
-My programming language - Spear, uses as little syntax as possible to specify what you want to implement. It takes inspiration from python but is compiled and high performance.
+My programming language - Spear, uses as few keywords as possible to specify what you want to implement. It takes inspiration from python but is compiled and high performance.
 To declare a variable in Spear, you just use a colon: 
 
 ```
