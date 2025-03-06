@@ -4,6 +4,11 @@
 [Twitter](https://twitter.com/OscarSmithJone1)
 [GitHub](https://github.com/ozzysmithjones)
 
+
+### Spear Programming Language
+I've decided to make a programming to see what it's like to make one. 
+Full Article: [Spear](Articles/Spear.md)
+
 ### Native Platform Layer
 [Native Platform Layer](https://github.com/ozzysmithjones/platform_layer)
 
