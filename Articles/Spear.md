@@ -1,5 +1,5 @@
 
-### The problem
+## The problem
 
 Programmers are constantly thinking. A significant portion of development time is spent thinking about how to solve a problem (and not actually typing).Sometimes, the programmer is stuck in a loop of analysis paralysis, where they are unable to make a decision because there's so many intracacies and alternatives to consider. This is a problem that I have faced many times, and I have come to the conclusion that it is a problem that can be treated with better programming languages. 
 
@@ -19,7 +19,7 @@ Another important aspect of programming is that the programmer needs to think ab
 
 The more technical details and quirks introduced into the language, the higher the mental load expected from the programmer, and the less efficiently they can work. This is why I have decided to make a programming language that is as minimal as possible. The language is called Spear, and it is a compiled, high performance language that takes inspiration from Python.
 
-### The Idea
+## The Idea
 
 Spear is a programming language designed around mitigating analysis paralysis. To declare a variable in spear you just use a colon, type is infered:
 ```
