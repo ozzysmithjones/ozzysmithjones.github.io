@@ -25,11 +25,11 @@ What we actually need is a system for graceful recovery in release but programme
 // BREAKPOINT macro also breakpoints in development builds.
 #define BUG(...) printf(__FILE__":" TOSTRING(__LINE__) " Bug: " __VA_ARGS__); fflush(stdout); BREAKPOINT()
 
-// Assert macro, similar to c assert() but with a fallback behaviour should the assert fail in release.
+// Assert macro, similar to c assert() but has a gracefull fallback error-recovery for release mode. 
 #define ASSERT(condition, fallback, ...) \
     if (!(condition)) { \
         BUG(__VA_ARGS__); \
         fallback; \
     }
 ```
-This is what I ended up using in my projects instead of exceptions/option types. Every part of the program validates itself with asserts. This allows me to quickly fix issues as soon as they are found (just like unit testing), and in release mode these asserts switch to an error-recovery model to make the experience more user friendly. 
+This is what I ended up using in my projects instead of exceptions/option types. Every part of the program validates itself with asserts. This allows me to quickly fix issues as soon as they are found (just like unit testing), and in release mode these asserts switch to an error-recovery model to make the experience more user friendly. I don't want the player of my games to get a bad experience - even if a bug happens.  
