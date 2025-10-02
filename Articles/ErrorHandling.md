@@ -18,7 +18,7 @@ Exceptions occur in exceptional scenarios - like performing an index out of rang
 
 Options are the opposite problem. Options do not provide nearly the same level of programmer alert as an exception, but they encourage programs to gracefully recover closer to the source of the problem. An Exception will alert the programmer and quite often provide them with a stack-trace to fix the issue. An option type is just a special return value indicating an error. It is just useful in the sense that the caller can check this return value and gracefully recover if it wants. However, options do not alert the programmer at all unless you unwrap() them (and even then they probably do not give a stack-trace).
 
-What we actually need is a system for graceful recovery in release but programmer alert in development. assert() in C is very close to this. assert() will only trap the program in debug builds, so that the programmer can address the issue. assert() dissapears in release, so there's less disruption to the user when an error occurs. However, assert() does not provide a means of graceful error recovery in release, so I made a version of assert with this error recovery in mind:
+What we actually need is a system for graceful recovery in release but programmer alert in development. assert() in C is very close to this. assert() will only trap the program in debug builds, so that the programmer can address the issue. However, assert() does not provide a means of graceful error recovery in release, so I made a version of assert with this error recovery in mind:
 
 ``` C
 // BUG macro can be changed in release/development builds. Maybe you want to alert the user of the bug or write it to a log file?
