@@ -32,4 +32,4 @@ What we actually need is a system for graceful recovery in release but programme
         fallback; \
     }
 ```
-This is what I ended up using in my projects. 
+This is what I ended up using in my projects instead of exceptions/option types. Every part of the program validates itself with asserts. This allows me to quickly fix issues as soon as they are found (just like unit testing), and in release mode these asserts switch to an error-recovery model to make the experience more user friendly. 
