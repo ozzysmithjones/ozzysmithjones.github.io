@@ -1,4 +1,4 @@
-### Error Handling
+## Error Handling
 
 I think error handling is one of those things that is poorly handled in programming languages. I am not a fan of exceptions, and I'm also not a fan of Result types either (like you find in Rust or Haskell). The one fundamental flaw with both of these approaches is that they do not take into account development vs release builds. Quite often you actually want to handle errors differently depending on the user of the program, and so a one-size fits all solution doesn't work well.
 
