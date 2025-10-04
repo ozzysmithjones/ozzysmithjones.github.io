@@ -67,5 +67,5 @@ result<file> open_file(file_name) {
     return ok(file);
 }
 ```
-It still uses result/option types for release, so that the program can recover gracefully, but in development these asserts will immediately inform the programmer that something went wrong. Note that I don't return the string for the error message, this is because the ASSERT macro already handles the string and can write it to a log file or do something else with the message. This strategy keeps the calling code nice and clean, because the calling code just needs to worry about recovering the program and not alerting developers. 
+It still uses result/option types for release, so that the program can recover gracefully, but in development these asserts will immediately inform the programmer that something went wrong by breakpointing the program. Note that I don't return the string for the error message, this is because the ASSERT macro already handles the string and can write it to a log file or do something else with the message. This strategy keeps the calling code nice and clean, because the calling code just needs to worry about recovering the program and not alerting developers. 
 
