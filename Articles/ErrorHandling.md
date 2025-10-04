@@ -62,7 +62,7 @@ In both of these, it falls upon the calling code to manage development vs releas
 ```
 result<file> open_file(file_name) {
     // ... some code here for managing and opening the file.
-    // ASSERT macro has a second clause that says what to do in release if there's a missing file (in this case, return none).
+    // ASSERT macro has a second clause that says what to do if the assert fails (in this case, return error).
     ASSERT(file_exists, return error(), "file does not exist");
     return ok(file);
 }
