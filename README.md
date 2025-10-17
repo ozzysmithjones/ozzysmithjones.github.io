@@ -4,7 +4,7 @@
 [Twitter](https://twitter.com/OscarSmithJone1)
 [GitHub](https://github.com/ozzysmithjones)
 
-## Error Handling
+### Error Handling
 Thoughts on error handling and why it's flawed in most programming languages.
 Full Article: [Error Handling](Articles/ErrorHandling.md)
 
