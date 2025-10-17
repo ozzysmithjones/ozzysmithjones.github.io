@@ -4,6 +4,9 @@
 [Twitter](https://twitter.com/OscarSmithJone1)
 [GitHub](https://github.com/ozzysmithjones)
 
+## Error Handling
+Thoughts on error handling and why it's flawed in most programming languages.
+Full Article: [Error Handling](Articles/ErrorHandling.md)
 
 ### Spear Programming Language
 I've decided to make a programming to see what it's like to make one. 
