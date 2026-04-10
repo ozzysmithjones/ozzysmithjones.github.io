@@ -40,7 +40,7 @@ foo (
 ```
 ## Memory Management
 
-Spear does not support dynamic memory allocation. The reasoning is - dynamic memory allocation is error-prone and can lead to crashes in the program if handled poorly. Some programming languages use a garbage collector to manage memory, but this can lead to unpredictable stalls in the program. To enforce reliable code, Spear instead enforces that all values must be allocated on the stack or allocated in static memory. To avoid stackoverflow, the total required memory usage is calculated at compiletime, so that the stack size can be adjusted depending on the memory needed. Not only is spear totally safe from memory leaks, it is also totally safe from stack overflows.
+Spear does not support dynamic memory allocation. The reasoning is - dynamic memory allocation is error-prone and can lead to crashes in the program if handled poorly. Some programming languages use a garbage collector to manage memory, but this can lead to unpredictable stalls in the program. To enforce reliable code, Spear instead enforces that all values must be allocated on the stack or allocated in static memory. To avoid stackoverflow, the total required memory usage is calculated at compiletime, so that the stack size can be adjusted depending on the memory needed (Admitedly, stack size has a low upper-bound on most platforms, so static allocation is always neeeded at some point). Not only is spear totally safe from memory leaks, it is also totally safe from stack overflows.
 To allocate an array in Spear, you do the following:
 ```
 foo: int[10]
