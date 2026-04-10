@@ -5,34 +5,41 @@
 [GitHub](https://github.com/ozzysmithjones)
 
 ### Error Handling
-Thoughts on error handling and why it's flawed in most programming languages.
-Full Article: [Error Handling](Articles/ErrorHandling.md)
+
+Thoughts on error handling in programming languages and the problems that they don't solve but really should:
+Article: [Error Handling](Articles/ErrorHandling.md)
 
 ### Spear Programming Language
-I've decided to make a programming to see what it's like to make one. 
-Full Article: [Spear](Articles/Spear.md)
 
-### Native Platform Layer
-[Native Platform Layer](https://github.com/ozzysmithjones/platform_layer)
-
-Platform layer library. This library allows access to native utilities provided by the operating system such as threading, windowing, file mapping and memory management. It is designed to be cross-platform in the future but right now it just supports windows. 
+Thoughts/Design ideas for a programming language that imposes minimal mental burden on the programmer:
+(I know, tried many times, this one is different I swear).
+Article: [Spear](Articles/Spear.md)
 
 ### Entity-Component-System (ECS)
+
 [Entity Component System](https://github.com/ozzysmithjones/entity-component-system) 
 
-ECS library. This library is used to represent objects in video games, such as characters, items, enemies and so on. 
-Full article: [Entities](Articles/Entities.md) 
+ECS library. This library is used to represent objects in video games in a much more data-orinetated way, such as characters, items, enemies and so on. 
+Good for avoiding cache-misses in performance-critical code and a different paradigm to Object Orientated Programming.
+article: [Entities](Articles/Entities.md) 
 
 ### Vulkan Renderer
+
 [Vulkan Renderer](https://github.com/ozzysmithjones/LearnVulkan)
 
-Vulkan is an API used to interface directly with the GPU on a computer. Recently I developed a project that renders a 3D model directly to the screen using only the Vulkan SDK and the GLFW library. Game engines often depend upon an API such as Vulkan to present 3D models to the screen, so learning this tech is very handy for future game engine projects. 
+A demonstration of using the Vulkan API to make a 3d model rotate on the screen. 
 
 ### Chess AI
+
 [Chess AI](https://github.com/ozzysmithjones/Chess)
 
-### Tower Defence Genetic Algorithm
-[Tower Defence Genetic Algorithm](https://github.com/ozzysmithjones/GeneticAlgorithm)
+Exploration of plenty of algorithm optimizations to make a good chess bot. It is wildy known that AI is good at playing chess,
+but not many might know of all the smart ideas to get a good one working.
 
-A genetic algorithm is the technique of using theories of evolution to develop an AI gradually over time. This partivular genetic algorithm finds the optimal sequence of towers to place in a tower defence game, their locations and the order that the towers should be placed in. This is an old project but might be interesting never the less.
+## Game Engine From scratch in C
 
+[C Game Engine](https://github.com/ozzysmithjones/gameoverlord)
+
+Very Minimal Game Engine that only uses six c./.h files to implement the back-end. It can do sprite-batching, hot-reloading, play sounds, manage user input and draw graphics to the screen.
+Intended to be used as a game framework where you just download the project and extend from the game as a template (this makes managing the hot-reloading feature simpler). A full game-engine might
+use a custom build-system and project initialization tool (like Unreal does), who knows.
