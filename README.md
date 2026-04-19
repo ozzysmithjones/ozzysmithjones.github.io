@@ -4,6 +4,10 @@
 [Twitter](https://twitter.com/OscarSmithJone1)
 [GitHub](https://github.com/ozzysmithjones)
 
+## Bounding Index values at Compile-Time
+Simple way to validate index values at compile-time. First time I saw this approach I felt that the idea should be more widespread.
+Article: [Bounding Indices at Compile Time](Articles/BoundsChecking.md)
+
 ### Error Handling
 
 Thoughts on error handling in programming languages and the problems that they don't solve but really should:
