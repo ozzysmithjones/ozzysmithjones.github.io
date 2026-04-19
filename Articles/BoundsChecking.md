@@ -1,5 +1,5 @@
 
-**Simple Compile-Time Bounds Checking**
+### Simple Compile-Time Bounds Checking
 
 What if I told you that there's a way to completely eliminate a whole category of errors and it doesn't even require rewriting your program in Rust. When I stumbled on this idea I thought "why the hell is this not the standard".
 
