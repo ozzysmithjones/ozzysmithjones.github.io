@@ -1,4 +1,6 @@
 
+**Simple Compile-Time Bounds Checking**
+
 What if I told you that there's a way to completely eliminate a whole category of errors and it doesn't even require rewriting your program in Rust. When I stumbled on this idea I thought "why the hell is this not the standard".
 
 When you think about it, there's only really a few key places where there can be a fatal error in a program, and most fatal errors can be quite easy to resolve. I mean ambiguous logic errors can be harder to find but most fatal issues that programmers actually encounter can be trivial to solve and embarassingly easy to guard against, yet still they cause problems all the time. Many would consider "null" to be the billion dollar mistake - it is trivial to solve most encounters of "null" - the debugger normally points you to the precise place where null was accessed incorrectly - but null reference exceptions happen so frequently that the overall cost to developers time must be somewhere in the billions. Modern languages now solve this problem by introducing optional types, that must be safely unwrapped before the value inside can be used.  I propose that we do a similar thing with indexing.
